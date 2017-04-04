@@ -17,4 +17,5 @@ dns1     172800    IN      A       133.130.102.210
 ns2     172800    IN      A       133.130.102.210
 www	IN	A   133.130.102.210
 test	IN	A   216.58.197.14
-*	IN	CNAME   wyvernsquare.com.
+test    IN      CNAME   google.com.
+salesforce        IN      CNAME   wyvernsquare-dev-ed.my.salesforce.com.
