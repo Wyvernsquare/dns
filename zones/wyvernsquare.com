@@ -6,6 +6,7 @@ $TTL 3600
 			1209600		; expire
 			300 )		; minimum
 		IN	NS	dns1.wyvernsquare.com.
+		IN      NS      ns1.wyvernsquare.com.
 		IN	NS	ns2.wyvernsquare.com.
 		IN	A	133.130.102.210
                 IN      MX      10 MX.ZOHO.COM.
