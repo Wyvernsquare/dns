@@ -1,16 +1,17 @@
 $TTL 3600
 @ 		IN	SOA	dns1.wyvernsquare.com. helpdesk.wyvernsquare.com. (
-			2017040401	; serial
+			2017040402	; serial
 			300		; refresh
 			300		; retry
 			1209600		; expire
 			300 )		; minimum
 		IN	NS	dns1.wyvernsquare.com.
 		IN	NS	ns2.wyvernsquare.com.
-		IN	A	61.160.235.206
-                IN      MX      10 ASPMX.L.GOOGLE.COM.
-                IN      MX      20 ALT1.ASPMX.L.GOOGLE.COM.
-                IN      MX      20 ALT2.ASPMX.L.GOOGLE.COM.
+		IN	A	133.130.102.210
+                IN      MX      10 MX.ZOHO.COM.
+                IN      MX      20 MX2.ZOHO.COM.
+                IN      TXT     "v=spf1 include:zoho.com ~all"
+                IN      TXT     "MS=ms47698118"
 $ORIGIN wyvernsquare.com.
 dns1     172800    IN      A       133.130.102.210
 ns2     172800    IN      A       133.130.102.210
