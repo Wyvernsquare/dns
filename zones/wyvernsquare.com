@@ -15,7 +15,7 @@ $TTL 3600
 $ORIGIN wyvernsquare.com.
 dns1     172800    IN      A       133.130.102.210
 ns2     172800    IN      A       133.130.102.210
-www	IN	A   133.130.102.210
+www	IN	CNAME @
 test	IN	A   216.58.197.14
 test    IN      CNAME   google.com.
 salesforce        IN      CNAME   wyvernsquare-dev-ed.my.salesforce.com.
