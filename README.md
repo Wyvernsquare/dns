@@ -1,6 +1,7 @@
 # GitNamed powered DNS record management
 
-GitNamed is a project that manage name server by git. All changes are pushed out via webhooks
+GitNamed is a project that manage name server by git. All changes are pushed out via webhooks.
+Merging to master on this repo will push out DNS changes to dns1.wyvernsquare.com immediately.
 
 ## Features
 
