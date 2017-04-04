@@ -10,3 +10,6 @@
 rndc.key
 named.conf.master
 named.conf.slave
+deploy-log.txt
+Kmaster2slave.+157+61080.key
+Kmaster2slave.+157+61080.private

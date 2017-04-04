@@ -24,13 +24,13 @@ import sys
 import platform
 
 # IP of master name server
-master_ip = '61.160.235.206'
+master_ip = '133.130.102.210'
 
 # you can have multiple slave dns
-slave_ips = {
-            '61.160.235.203':'debian',
-            '61.10.35.200':'centos',
-           }
+#slave_ips = {
+#            '61.160.235.203':'debian',
+#            '61.10.35.200':'centos',
+#           }
 
 # key to transfer zone from master to slave
 # dnssec-keygen -a hmac-md5 -b 128 -n HOST master2slave
