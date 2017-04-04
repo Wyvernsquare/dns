@@ -14,7 +14,7 @@ $ORIGIN wyvernsquare.com.
 dns1     172800    IN      A       133.130.102.210
 ns1     172800    IN      A       62.75.203.70
 ns2     172800    IN      A       133.130.102.210
-test	IN	A   216.58.221.164
+test1	IN	A   216.58.221.164
 www IN CNAME wyvernsquare.com
 lyncdiscover IN CNAME webdir.online.lync.com.
 msoid IN CNAME clientconfig.microsoftonline-p.net.
