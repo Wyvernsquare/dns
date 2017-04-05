@@ -13,4 +13,4 @@ named.conf.slave
 deploy-log.txt
 Kmaster2slave.+157+61080.key
 Kmaster2slave.+157+61080.private
-zone/wyvernsquare.com-private
+zones/wyvernsquare.com-private
