@@ -4,3 +4,9 @@ zone "wyvernsquare.com" {
     type master;
     file "zones/wyvernsquare.com";
 };
+
+zone "102.130.133.in-addr.arpa" {
+    type master;
+    file "zones/reverse.zone";
+    allow-update { none; }; 
+};
