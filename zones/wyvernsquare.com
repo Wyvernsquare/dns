@@ -11,12 +11,11 @@ $TTL 3600
 		IN	A	133.130.102.210
                 IN      MX      10 MX.ZOHO.COM.
                 IN      MX      20 MX2.ZOHO.COM.
-$ORIGIN wyvernsquare.com.
 
 ;name servers
 dns1     172800    IN      A       133.130.102.210
-ns1     172800    IN      A       62.75.203.70
-ns2     172800    IN      A       133.130.102.210
+ns1     172800    IN      A       133.130.102.210
+ns2     172800    IN      A       8.8.8.8
 
 ;www redirect
 www IN A 133.130.102.210
@@ -28,3 +27,6 @@ sip IN CNAME sipdir.online.lync.com.
 
 ;test purposes
 test	IN	A   216.58.221.164
+
+;INCLUDE private records
+$INCLUDE "wyvernsquare.com-private";
