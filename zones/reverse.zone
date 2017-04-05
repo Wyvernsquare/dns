@@ -1,0 +1,13 @@
+$ORIGIN 102.130.133.in-addr.arpa.
+$TTL 14400
+@       IN      SOA     www.wyvernsquare.com.        helpdesk.wyvernsquare.com. (
+                                        2017040503      ; serial
+                                        86400   ; refresh
+                                        7200    ; retry
+                                        3600000 ; expire
+                                        86400 ) ; minimum
+        IN      NS      dns1.wyvernsquare.com.
+        IN      NS      ns1.wyvernsquare.com.
+        IN      NS      ns2.wyvernsquare.com.
+
+1     IN      PTR     ns1.wyvernsquare.com.
