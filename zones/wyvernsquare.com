@@ -19,7 +19,7 @@ ns1     172800    IN      A       62.75.203.70
 ns2     172800    IN      A       133.130.102.210
 
 ;www redirect
-www IN CNAME wyvernsquare.com
+www IN CNAME wyvernsquare.com.
 
 ;office 365
 lyncdiscover IN CNAME webdir.online.lync.com.
