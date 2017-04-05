@@ -1,10 +1,10 @@
 include "/home/named/named.conf";
 
-zone "pubyun.org" {
+zone "wyvernsquare.com" {
     type slave;
-    file "zones/pubyun.org";
+    file "zones/wyvernsquare.com";
     masters {
-        61.160.235.206;
+        133.130.102.210;
     };
 };
 
