@@ -9,7 +9,6 @@ $TTL 14400
         IN      NS      dns1.wyvernsquare.com.
         IN      NS      ns1.wyvernsquare.com.
         IN      NS      ns2.wyvernsquare.com.
-210.102.130.133.in-addr.arpa. IN NS dns1.wyvernsquare.com.
 102.130.133.in-addr.arpa. IN NS dns1.wyvernsquare.com.
 
 1     IN      PTR     dns1.wyvernsquare.com.
