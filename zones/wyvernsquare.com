@@ -33,11 +33,6 @@ enterpriseregistration IN CNAME enterpriseregistration.windows.net.
 lyncdiscover IN CNAME webdir.online.lync.com.
 ; others
 zb14593215 IN CNAME zmverify.zoho.com.
-salesforce IN CNAME wyvernsquare-dev-ed.my.salesforce.com.
-apps IN CNAME myapps.microsoft.com.
-github IN CNAME github.com.
-hipchat IN CNAME wyvernsquare.hipchat.com.
-office IN CNAME portal.office.com.
 
 ; SRV Records
 ;FORMAT: name IN SRV priority weight port target
