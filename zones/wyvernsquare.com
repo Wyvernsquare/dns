@@ -23,6 +23,9 @@ ns2     172800    IN      A       8.8.8.8
 ;www redirect
 www IN A 133.130.102.210
 
+; A records for services
+vpn1 IN A 133.130.102.210
+
 ;CNAME Records
 ; office 365
 lyncdiscover IN CNAME webdir.online.lync.com.
