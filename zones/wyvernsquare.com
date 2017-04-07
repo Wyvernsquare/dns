@@ -45,3 +45,12 @@ test	IN	A   216.58.221.164
 
 ;INCLUDE private records
 $INCLUDE /home/named/zones/wyvernsquare.com-private
+
+$ORIGIN internal.wyvernsquare.com.
+@ IN     A       52.197.98.218
+@ IN      AAAA    fe80::4ca5:4369:945a:13fa
+
+; dc1.internal
+dc1 IN A 52.197.98.218
+dc1 IN AAAA fe80::4ca5:4369:945a:13fa
+
