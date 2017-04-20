@@ -55,3 +55,7 @@ $ORIGIN internal.wyvernsquare.com.
 ; dc1.internal
 dc1 IN A 52.192.214.252
 
+; new AWS instance
+services IN A 52.88.232.193
+svc1 IN CNAME services.
+
