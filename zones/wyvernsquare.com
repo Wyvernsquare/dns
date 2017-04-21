@@ -24,7 +24,7 @@ ns2     172800    IN      A       8.8.8.8
 www IN A 133.130.102.210
 
 ; A records for services
-vpn1 IN A 133.130.102.210
+vpn1 IN A 52.68.111.200
 
 ;CNAME Records
 ; office 365
